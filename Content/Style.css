@@ -1,0 +1,102 @@
+﻿html {
+background-color:#3BB9FF;
+}
+#page {
+    background-color:#3BB9FF;
+    width:800px;
+    margin: 0 auto;
+    border:solid;
+    border-color: white;
+            
+}
+
+#header {
+    background-color:#3BB9FF;
+    width:800px;
+	height:100px;
+	position: relative;
+    text-align:center;
+ 
+    
+}
+
+h2 {
+    text-align:center;
+}
+
+h3 {
+    text-align:center;
+}
+
+
+/* This is for the Menu bar*/  
+#menu {
+width:800px;
+}
+ ul
+ {
+     list-style-type:none;}
+
+#menu li 
+ {
+     
+     width:159px;
+     text-align:center;
+     position:relative;
+     float:left;
+     left:-40px;
+     
+     }
+
+ ul#menu a
+  {
+      Text-decoration:none;
+      display:block;
+      width:162px;
+      height: 25px;
+      background-color:#FFF;
+      border: 1px solid #CCC;
+      
+      }
+ ul#menu #sub1 a
+  {
+      margin-top; 10px;
+      }
+ ul#menu #sub2 a 
+  {
+      Margin-left:18px;
+      }
+ ul#menu li:hover > a 
+   {
+       background-color: #CFC;
+       }
+ ul#menu ul#sub1
+   {
+       display:none;
+       position: absolute;
+       top:26px;
+       left:0px;
+       
+       }
+
+ ul#menu ul#sub2 
+   {
+       display:none;
+       position: absolute;
+       top:0px;
+       left:144px;
+       
+       }
+
+ ul#menu li:hover #sub1
+   {
+      display:block; }
+ ul#menu #sub1 li:hover #sub2
+   {
+      display:block; }
+
+/*end of menu bar */      
+
+
+
+

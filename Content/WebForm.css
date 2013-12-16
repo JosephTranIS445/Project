@@ -1,0 +1,29 @@
+﻿h1	{
+	font-size:150%
+}
+
+h2 {
+	Text-align:center;
+	color:blue;
+}
+
+h3 {
+	text-align:center;
+    	color:purple;
+    }
+
+h2, h3 {
+    text-align: center;
+
+}
+
+#BodyBorder {
+    border-style:solid;
+    margin:auto;
+	border-style:solid;
+	border-color:cyan;
+	padding:10px;
+    width:720px;
+    background-color:gold;
+	
+}

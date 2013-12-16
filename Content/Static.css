@@ -1,0 +1,40 @@
+﻿
+.container
+{
+   Background-color:;
+    height:600px;
+    float:none;
+    margin: 0 auto;
+    width:700px}
+      
+.article
+{
+    background-color:pink;
+    text-align:center;
+    color:White;
+    width:466px;
+    height:270px;
+     margin-top:px;
+}
+ article
+{
+    margin-bottom:5px;}
+section
+{
+   background-color:Red;
+    height:90px;
+    margin-bottom:20px; }
+aside
+{
+    background-color: Aqua;
+    text-align:center;
+    color:White;
+    height:250px;
+    width:233px;}
+footer
+{
+   background-color:green;
+    height:30px;
+    width:700px;
+    color:White;
+    text-align:center; }

@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+
+<html>
+<link href="~/Content/Style.css" rel="stylesheet" />
+   
+
+<div id="page">
+
+    <div id="header">
+        <meta name="viewport" content="width=device-width" />
+        <title>@ViewBag.Title</title>
+
+        <div id="header">
+            <h1> Tran, Joseph ASP.NET MVC Website in Window Azure</h1>
+            
+            
+            <ul id="menu">
+
+                <li>@Html.ActionLink("Home", "Index")</li>
+                <li>
+                    <a href="#">Form/Layout Demos</a>
+                    <ul id="sub1">
+                        <li>@Html.ActionLink("Web Form Demo", "Webform")</li>
+                        <li>
+                            <a href="#">Layout Demos</a>
+                            <ul id="sub2">
+                                <li>@Html.ActionLink("Static Demo", "Static")</li>                              
+                                <li>@Html.ActionLink("Float Demo", "Float")</li>
+                                <li>@Html.ActionLink("Absolute Demo", "Absolute")</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+
+                <li>@Html.ActionLink("Client Side Demo", "ClientSideDemo")</li>
+                <li>@Html.ActionLink("Server Side Demo", "ServerSideDemo")</li>
+                <li>@Html.ActionLink("About me", "Aboutme")</li>
+
+            </ul>
+        </div>
+
+
+   
+
+    </div>
+
+
+
+
+
+    <body>
+        
+            @RenderBody()
+       
+    </body>
+
+
+
+
+
+
+
+
+</div>
+
+</html>

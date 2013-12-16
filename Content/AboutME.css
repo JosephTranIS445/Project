@@ -1,0 +1,24 @@
+﻿/* About me css*/  
+#rightbody {
+	float:right;
+	width:200px;
+	height:200px;
+}
+
+#leftbody {
+	float:left;
+	width:400px;
+	height:500px;
+}
+
+#Middlebody {
+    margin:auto;
+	padding:10px;
+    width:720px;
+    height: 600px;
+}
+
+#dot li{
+    list-style-type:disc;
+}
+/*end of about me css */  

@@ -1,0 +1,90 @@
+﻿@{
+    ViewBag.Title = "Webform";
+}
+
+<link href="~/Content/WebForm.css" rel="stylesheet" />
+
+<div id="BodyBorder">
+
+
+
+    <h2>Welcome to my Web Form</h2>
+    <h3>A Demo Form for Hotel Room Reservation</h3>
+
+    <div id="body">
+
+
+        <form action=http://www.example.com/form.php method=get>
+
+            <fieldset>
+                <legend>Customer Information</legend>
+                <p>
+                    Full Name:
+                    <input type=text name=Username size=15 maxlength=40 required=required placeholder="Firstname Lastname" />
+                </p>
+                <p>
+                    Email Address:
+                    <input type=email name=Email size=15 maxlength=30 required=required />
+                </p>
+                <p>
+                    Phone:
+                    <input type=tel name=Phone size=15 maxlength=10 required=required />
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Room Information</legend>
+                <p>
+                    Arrival Date:
+                    <input type=date name=date required=required />
+                </p>
+
+                <p>
+                    Arrival Time:
+                    <input type=time name=time required=required />
+                </p>
+
+                <p>
+                    Select Room Type:
+                    <select name=Room>
+                        <option value=Regular>Luxury</option>
+                        <option value=Deluxe>Deluxe</option>
+                        <option value=ExecutiveSuite>Executive Suite</option>
+                        <option value=GrandExecutiveSuite>Grand Executive Suite</option>
+                    </select>
+                </p>
+
+                <p>
+                    Number of Nights(valid number is from 1 to 30):
+                    <input type=number name=NumberofNights min=1 max=5 valve=1 />
+                </p>
+
+                <p>
+                    Number of Guest(The Maximun guest is 3):
+                    <input type=number name=NumberofNights min=0 max=3 valve=0 />
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Other Information</legend>
+                <p>
+                    Promo Code:
+                    <input type=text name=code size=4 maxlength=4 />
+                </p>
+
+                <p>
+                    Special note:
+                    <textarea name=note cols=40 rows=4>Enter your Special Note Here</textarea>
+                </p>
+
+
+
+            </fieldset>
+
+
+            <input type=reset value="Clear Form" />
+            <input type=submit value="Request Reservation" />
+
+        </form>
+    </div>
+</div>
